@@ -10,9 +10,7 @@ namespace Rekursia
     {
         static void Main(string[] args)
         {
-            int number = int.Parse(Console.ReadLine());
-            if (number < 11)
-                PrintNumber1to10(number);
+                PrintNumber1to10(int.Parse(Console.ReadLine());
         }
 
         private static void PrintNumber1to10(int number)
